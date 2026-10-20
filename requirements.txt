@@ -1,0 +1,13 @@
+tensorflow==2.15.1
+numpy<2
+pandas
+scikit-learn
+scikit-image
+Pillow
+matplotlib
+seaborn
+PyYAML
+joblib
+pytest
+ruff
+jupyter

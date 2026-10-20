@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plant-disease-classification-benchmark"
+version = "0.1.0"
+description = "Reproducible experiments for potato leaf disease classification and robustness evaluation"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "numpy<2",
+    "pandas",
+    "scikit-learn",
+    "scikit-image",
+    "Pillow",
+    "matplotlib",
+    "seaborn",
+    "PyYAML",
+    "joblib",
+    "scipy",
+]
+
+[project.optional-dependencies]
+cnn = ["tensorflow==2.15.1"]
+dev = ["pytest", "ruff", "jupyter"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
