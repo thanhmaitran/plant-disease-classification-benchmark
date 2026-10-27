@@ -1,0 +1,10 @@
+model,true_class,predicted_class,count
+HOG + SVM,Early_blight,Early_blight,129
+HOG + SVM,Early_blight,Late_blight,21
+HOG + SVM,Early_blight,healthy,0
+HOG + SVM,Late_blight,Early_blight,22
+HOG + SVM,Late_blight,Late_blight,128
+HOG + SVM,Late_blight,healthy,0
+HOG + SVM,healthy,Early_blight,2
+HOG + SVM,healthy,Late_blight,16
+HOG + SVM,healthy,healthy,5
