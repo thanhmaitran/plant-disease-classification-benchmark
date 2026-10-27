@@ -1,0 +1,19 @@
+model,true_class,predicted_class,count
+HOG + SVM,Early_blight,Early_blight,294
+HOG + SVM,Early_blight,Late_blight,6
+HOG + SVM,Early_blight,healthy,0
+HOG + SVM,Late_blight,Early_blight,3
+HOG + SVM,Late_blight,Late_blight,297
+HOG + SVM,Late_blight,healthy,0
+HOG + SVM,healthy,Early_blight,2
+HOG + SVM,healthy,Late_blight,13
+HOG + SVM,healthy,healthy,31
+Custom CNN,Early_blight,Early_blight,299
+Custom CNN,Early_blight,Late_blight,1
+Custom CNN,Early_blight,healthy,0
+Custom CNN,Late_blight,Early_blight,0
+Custom CNN,Late_blight,Late_blight,299
+Custom CNN,Late_blight,healthy,1
+Custom CNN,healthy,Early_blight,0
+Custom CNN,healthy,Late_blight,2
+Custom CNN,healthy,healthy,44
